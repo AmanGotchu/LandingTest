@@ -92,7 +92,7 @@
 	position: absolute;
 	flex-direction: row;
 	right: 0;
-	max-width: 
+	max-width:
 }
 
 #navlogo{
@@ -107,7 +107,7 @@
 
 @keyframes translateCloud1 {
   from {
-    margin-left: -10px;
+    margin-left: -10%;
   }
 
   to {
@@ -117,11 +117,11 @@
 
 @keyframes translateCloud2 {
   from {
-    left: 110vw;
+    left: 110%;
   }
 
   to {
-    left: -10vw;
+    left: -10%;
   }
 }
 
@@ -158,23 +158,24 @@
   25%{
   	left: 37.5%;
     bottom: 20%;
+		transform: scale(.75);
   }
 
   50%{
-	left: 50%;
+		left: 50%;
     bottom: 50%;
+		transform: scale(.5);
   }
 
   75%{
-	left: 62.5%;
+		left: 62.5%;
     bottom: 80%;
+		transform: scale(.25);
   }
 
   100%{
   	left: 75%;
     bottom: 110%;
-    transform: rotate(40deg);
+		transform: scale(0);
   }
 }
-
-
