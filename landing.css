@@ -1,3 +1,8 @@
+
+body{
+	font-family: "Avenir Next" !important;
+}
+
 #swoosh{
 	position: absolute;
 	width: 100%;
@@ -9,10 +14,11 @@
 	position: absolute;
 	width: 7%;
 	animation: translateplane 5s linear infinite;
+	z-index: -1;
 }
 
 #blimp{
-	position: absolute;
+	position: relative;
 	left: 73.7%;
 	top: 51.71%;
 	width: 3%;
@@ -21,9 +27,11 @@
 
 #acadbuild{
 	position: absolute;
-	bottom: 0;
+	bottom: -3px;
 	width: 60%;
-}
+	align-self: center;
+	z-index: -1;
+}	
 
 #sun{
 	position: absolute;
@@ -33,11 +41,10 @@
 }
 
 #tamuhacklogo{
-	position: fixed;
-  	top: 35%;
-  	left: 50%;
+	position: relative;
+	align-self: center;
+	top: 30%;
   	/* bring your own prefixes */
-  	transform: translate(-50%, -50%);
   	height: 7%;
 }
 
@@ -49,27 +56,27 @@
 }
 
 #cloud1{
-	position: absolute;
+	position: fixed;
 	height: 4%;
 	left: 3%;
 	top: 43.86%;
-	animation: translateCloud1 30s linear infinite;
+	animation: translateCloud1 30s linear infinite;*/
 }
 
 #cloud2{
-	position: absolute;
+	position: fixed;
 	height: 3%;
 	left: 25%;
 	top: 15%;
-	animation: translateCloud2 10s linear infinite;
+	animation: translateCloud2 10s linear infinite;*/
 }
 
 #cloud3{
-	position: absolute;
+	position: fixed;
 	height: 4%;
 	left: 81%;
 	top: 14%;
-	animation: translateCloud3 10s linear infinite;
+	animation: translateCloud3 10s linear infinite;*/
 }
 
 #cloud4{
@@ -77,7 +84,7 @@
 	height: 2.4%;
 	left: 94%;
 	top: 34%;
-	animation: translateCloud4 10s linear infinite;
+	animation: translateCloud4 10s linear infinite;*/
 }
 
 #navbar{
